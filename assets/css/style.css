@@ -32,19 +32,19 @@ body {
 
 #banner {
   background-image:
-      url("../images/frame1.svg"),
-      url("../images/frame2.svg"),
-      url("../images/frame3.svg"),
-      url("../images/frame4.svg"),
-      url("../images/frame5.svg"),
-      url("../images/back.svg");
-    background-position:
-      284px 19px,
-      325px 205px,
-      12px 155px,
-      -4px 520px,
-      298px 606px,
-      19px 79px;
+    url("../images/frame1.svg"),
+    url("../images/frame2.svg"),
+    url("../images/frame3.svg"),
+    url("../images/frame4.svg"),
+    url("../images/frame5.svg"),
+    url("../images/back.svg");
+  background-position:
+    284px 19px,
+    325px 205px,
+    12px 155px,
+    -4px 520px,
+    298px 606px,
+    19px 79px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -52,13 +52,13 @@ body {
 }
 
 .slogan {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 h4.slogan {
@@ -66,14 +66,13 @@ h4.slogan {
 }
 
 #banner p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #contact ul {
@@ -171,5 +170,4 @@ h3 {
     justify-content: stretch;
     background-image: none;
   }
-
 }
