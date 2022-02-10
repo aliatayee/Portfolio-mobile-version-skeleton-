@@ -49,6 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 700px;
 }
 
 .slogan {
@@ -67,7 +68,7 @@ h4.slogan {
   margin-top: 75px;
 }
 
-#banner p {
+#banner h4 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -90,12 +91,12 @@ h4.slogan {
   margin-left: 10px;
 }
 
-h3 {
+p {
   margin-top: 12px;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 32px;
-  color: #172b4d;
+  font-size: 36px;
+  color: #36b37f;
   font-family: Inter, sans-serif;
   line-height: 44px;
 }
