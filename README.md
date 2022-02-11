@@ -1,6 +1,6 @@
 
-# Hello Microverse
-> This is the first practical project in microverse journy 
+# setup and mobile version skeleton
+> Portfolio: setup and mobile version skeleton 
 
 ## Built With
 HTML5
@@ -8,12 +8,30 @@ HTML5
 HTML
 CSS
 
+### Install & Setup
+
+To setup and install this sample project, follow the below steps:
+- Clone this project by the command: 
+
+```
+$ git clone https://github.com/aliatayee/Portfolio-mobile-version-skeleton-.git
+```
+
+- Then switch to the project folder by the bellow query:
+
+```
+$ cd Portfolio-mobile-version-skeleton-
+```
+
+- Finally, run the index.html file in your browser.
+
+
 
 ### Prerequisites
-### Setup
-### Install
-### Usage
-### Deployment
+
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- Git to versionning your work.
+
 ### Authors
 👤 **Ali**
 

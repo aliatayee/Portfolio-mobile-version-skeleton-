@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+}
+
+.logo img {
+  width: 30px;
+}
+
+.home-page {
+  background-color: #fff;
+}
+
+#nav {
+  display: flex;
+}
+
+.hamburger {
+  width: 45px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#nav nav:hover {
+  cursor: pointer;
+}
+
+.menu-link {
+  display: none;
+}
+
+#banner {
+  background-image:
+    url("../images/frame1.svg"),
+    url("../images/frame2.svg"),
+    url("../images/frame3.svg"),
+    url("../images/frame4.svg"),
+    url("../images/frame5.svg"),
+    url("../images/back.svg");
+  background-position:
+    284px 19px,
+    325px 205px,
+    12px 155px,
+    -4px 520px,
+    298px 606px,
+    19px 79px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+}
+
+.slogan {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.slogan span { color: #36b37f; }
+
+h4.slogan {
+  margin-top: 75px;
+}
+
+#banner h4 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#banner p {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 36px;
+  color: #36b37f;
+  font-family: Inter, sans-serif;
+  line-height: 44px;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.icon {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#nav .logo {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 25%;
+  margin-right: 60%;
+}
+
+#scroller-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo img {
+    width: 40px;
+  }
+
+  #nav {
+    margin-top: 0;
+    margin-right: 10.69%;
+    margin-left: 10.76%;
+  }
+
+  header #nav .logo {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  #nav nav {
+    display: none;
+  }
+
+  #nav .menu-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 190px;
+    margin-top: 30px;
+  }
+
+  #nav .menu-link li {
+    list-style: none;
+  }
+
+  #nav .menu-link li a {
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  #banner {
+    height: 916px;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 200px;
+    justify-content: stretch;
+    background-image: none;
+  }
+}
