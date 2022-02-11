@@ -80,6 +80,13 @@ h4.slogan {
 
 #banner p {
   text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 36px;
+  color: #36b37f;
+  font-family: Inter, sans-serif;
+  line-height: 44px;
 }
 
 #contact ul {
@@ -93,16 +100,6 @@ h4.slogan {
   list-style-type: none;
   margin-right: 10px;
   margin-left: 10px;
-}
-
-p {
-  margin-top: 12px;
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: 36px;
-  color: #36b37f;
-  font-family: Inter, sans-serif;
-  line-height: 44px;
 }
 
 #nav .logo {
