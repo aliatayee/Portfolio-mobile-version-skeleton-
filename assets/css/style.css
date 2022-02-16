@@ -334,6 +334,10 @@ h3 {
   height: 350px;
 }
 
+.skills div ul {
+  margin-top: -8px;
+}
+
 .FrameWorks {
   background-image: url("../images/icon-frameworks.svg");
   background-position: 50% 20%;
@@ -415,6 +419,7 @@ footer {
   border: 1px solid rgb(230, 230, 230);
   border-radius: 3px;
   padding-left: 10px;
+  font-family: Inter, sans-serif;
 }
 
 a {
