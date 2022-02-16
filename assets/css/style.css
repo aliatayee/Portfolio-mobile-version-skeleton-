@@ -368,6 +368,32 @@ footer {
   background-repeat: no-repeat;
 }
 
+.footer-contact {
+  height: 400px;
+}
+
+.submit-button {
+  background-color: #36b37f;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #36b37f;
+  box-shadow:
+    0 1px 1px 0 #a1e9cb,
+    0 6px 20px 0 #a1e9cb;
+}
+
+.submit-button:active {
+  background-color: #009151;
+}
+
 .contact-form {
   display: grid;
   justify-items: center;
@@ -389,6 +415,15 @@ footer {
   border: 1px solid rgb(230, 230, 230);
   border-radius: 3px;
   padding-left: 10px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: large;
+  color: #42526E;
 }
 
 @media screen and (min-width: 1024px) {
