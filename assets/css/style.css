@@ -101,7 +101,7 @@ p {
   line-height: 44px;
 }
 
-#contact ul {
+.contact ul {
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -423,7 +423,7 @@ a {
   text-decoration: none;
   font-family: Inter, sans-serif;
   font-size: large;
-  color: #42526E;
+  color: #42526e;
 }
 
 @media screen and (min-width: 1024px) {
