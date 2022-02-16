@@ -144,8 +144,8 @@ p {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  padding-top: 15px;
   padding: 5%;
+  padding-top: 15px;
 }
 
 .title-project {
@@ -363,10 +363,8 @@ h3 {
 footer {
   display: grid;
   justify-items: center;
-  background-image:
-    url("../images/footer-image.svg");
-  background-position:
-    100% 100%;
+  background-image: url("../images/footer-image.svg");
+  background-position: 100% 100%;
   background-repeat: no-repeat;
 }
 
