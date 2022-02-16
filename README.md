@@ -38,6 +38,13 @@ $ cd Portfolio-mobile-version-skeleton-
 - GitHub: [@aliatayee](https://github.com/aliatayee)
 - Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
 
+👤 **Safar Ali**
+
+- GitHub: [@githubhandle](https://github.com/safar1212)
+- Twitter: [@twitterhandle](https://twitter.com/safarali999)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/safar-ali999)
+
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
