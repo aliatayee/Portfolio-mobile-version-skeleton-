@@ -101,7 +101,7 @@ p {
   line-height: 44px;
 }
 
-#contact ul {
+.contact ul {
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -144,6 +144,7 @@ p {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  padding: 5%;
   padding-top: 15px;
 }
 
@@ -333,6 +334,10 @@ h3 {
   height: 350px;
 }
 
+.skills div ul {
+  margin-top: -8px;
+}
+
 .FrameWorks {
   background-image: url("../images/icon-frameworks.svg");
   background-position: 50% 20%;
@@ -357,6 +362,73 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-image: url("../images/footer-image.svg");
+  background-position: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.footer-contact {
+  height: 400px;
+}
+
+.submit-button {
+  background-color: #36b37f;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #36b37f;
+  box-shadow:
+    0 1px 1px 0 #a1e9cb,
+    0 6px 20px 0 #a1e9cb;
+}
+
+.submit-button:active {
+  background-color: #009151;
+}
+
+.contact-form {
+  display: grid;
+  justify-items: center;
+}
+
+.contact-form div input {
+  height: 35px;
+  width: 96.5%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.contact-form div textarea {
+  height: 100px;
+  width: 96.5%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding-left: 10px;
+  font-family: Inter, sans-serif;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: large;
+  color: #42526e;
 }
 
 @media screen and (min-width: 1024px) {
