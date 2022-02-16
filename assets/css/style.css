@@ -145,6 +145,7 @@ p {
   text-align: center;
   color: #172b4d;
   padding-top: 15px;
+  padding: 5%;
 }
 
 .title-project {
@@ -357,6 +358,39 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-image:
+    url("../images/footer-image.svg");
+  background-position:
+    100% 100%;
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  display: grid;
+  justify-items: center;
+}
+
+.contact-form div input {
+  height: 35px;
+  width: 96.5%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.contact-form div textarea {
+  height: 100px;
+  width: 96.5%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding-left: 10px;
 }
 
 @media screen and (min-width: 1024px) {
