@@ -284,6 +284,11 @@ h3 {
   font-size: 18px;
   color: #fff;
   margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  transition: width 1.5s;
 }
 
 .get-my-resume button {
@@ -302,6 +307,7 @@ h3 {
   box-shadow:
     0 1px 1px 0 #a1e9cb,
     0 6px 20px 0 #a1e9cb;
+  width: 300px;
 }
 
 .see-project button:active {
@@ -465,6 +471,20 @@ a {
 
   .nav__header .menu-link li {
     list-style: none;
+    display: inline-block;  
+  }
+
+  .nav__header .menu-link li::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: #36b37f;
+    transition: 300ms;    
+  }
+
+  .nav__header .menu-link li:hover::after {
+    width: 100%;
   }
 
   .nav__header .menu-link li a {
@@ -516,9 +536,16 @@ a {
   }
 
   #scroller-icon {
-    margin-top: 80px;
+    margin-top: 30px;
+    position: relative;
+    animation: mymove 5s infinite;
   }
 
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
+  
   .recent__work__container {
     display: grid;
     grid-template-columns: auto auto auto;
