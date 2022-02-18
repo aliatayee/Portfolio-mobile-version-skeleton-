@@ -498,7 +498,7 @@ a {
     background-repeat: no-repeat;
     height: 1121.3px;
   }
-  
+
   #banner {
     display: flex;
     flex-direction: column;
@@ -531,8 +531,8 @@ a {
     flex-direction: column;
     align-items: center;
     background-image:
-    url("../images/desktop/frame-7.svg"),
-    url("../images/desktop/frame-8.svg");
+      url("../images/desktop/frame-7.svg"),
+      url("../images/desktop/frame-8.svg");
     background-position:
       0% 65%,
       100% -48%;
@@ -556,18 +556,18 @@ a {
     padding-top: 0;
   }
 
-  .recent__work__container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 20px;
-    row-gap: 10px;
-  }
-
   .about__cards {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
     column-gap: 20px;
+  }
+
+  .contact__first__last_name {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    width: 90%;
   }
 
   .about__cards div div h2 {
@@ -599,19 +599,12 @@ a {
     justify-content: center;
   }
 
-  .contact__first__last_name {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
-    width: 90%;
-  }
-
-  #email {
+  #email-desktop {
     width: 88.5%;
     margin-top: 4%;
   }
 
-  #description {
+  #description-desktop {
     width: 88.5%;
     margin-top: 4%;
   }
@@ -637,6 +630,7 @@ a {
   .footer__email {
     display: none;
   }
+
   .contact ul {
     padding-top: 30px;
     padding-bottom: 30px;
