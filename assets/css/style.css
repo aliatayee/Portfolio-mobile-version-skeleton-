@@ -570,6 +570,13 @@ a {
     width: 90%;
   }
 
+  .contact__container h2 {
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .about__cards div div h2 {
     line-height: 11px;
   }
@@ -590,13 +597,6 @@ a {
     display: block;
     justify-items: start;
     width: 100%;
-  }
-
-  .contact__container h2 {
-    width: 482px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   #email-desktop {
