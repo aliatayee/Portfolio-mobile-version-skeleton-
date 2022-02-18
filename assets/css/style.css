@@ -336,7 +336,7 @@ h3 {
 }
 
 .skills div ul {
-  margin-top: -8px;
+  margin-top: -3px;
 }
 
 .FrameWorks {
@@ -460,7 +460,6 @@ a {
     justify-content: space-between;
     min-width: 190px;
     margin-top: 30px;
-    position: fixed;
   }
 
   .nav__header .menu-link li {
@@ -589,24 +588,16 @@ a {
     width: 100%;
   }
 
-  .form-mobile {
-    display: none;
+  .contact-form div{
+    width: 552px;
   }
 
-  .form-desktop {
-    display: block;
-    justify-items: start;
-    width: 100%;
+  .contact-form div textarea {
+    margin-top: 5%;
   }
 
-  #email-desktop {
-    width: 88.5%;
-    margin-top: 4%;
-  }
-
-  #description-desktop {
-    width: 88.5%;
-    margin-top: 4%;
+  .contact-form div input {
+    margin-top: 5%;
   }
 
   footer {
