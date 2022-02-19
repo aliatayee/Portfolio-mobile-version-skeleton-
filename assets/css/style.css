@@ -476,7 +476,7 @@ a {
 
   .nav__header .menu-link li {
     list-style: none;
-    display: inline-block;  
+    display: inline-block;
   }
 
   .nav__header .menu-link li::after {
@@ -485,7 +485,7 @@ a {
     height: 3px;
     display: block;
     background: #36b37f;
-    transition: 300ms;    
+    transition: 300ms;
   }
 
   .nav__header .menu-link li:hover::after {
@@ -547,10 +547,10 @@ a {
   }
 
   @keyframes mymove {
-    from {top: 0px;}
-    to {top: 50px;}
+    from { top: 0px; }
+    to { top: 50px; }
   }
-  
+
   .recent__work__container {
     display: grid;
     grid-template-columns: auto auto auto;
