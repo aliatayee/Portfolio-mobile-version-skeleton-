@@ -480,7 +480,7 @@ a {
   }
 
   .nav__header .menu-link li::after {
-    content: ' ';
+    content: '''';
     width: 0px;
     height: 3px;
     display: block;
