@@ -217,8 +217,13 @@ h3 {
 }
 
 .img-box img {
+  transition: transform 330ms ease-in-out;
   width: 100%;
   height: 100%;
+}
+
+.img-box img:hover {
+  transform: scale(1.5);
 }
 
 .buttons {
@@ -284,6 +289,11 @@ h3 {
   font-size: 18px;
   color: #fff;
   margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  transition: width 1.5s;
 }
 
 .get-my-resume button {
@@ -302,6 +312,7 @@ h3 {
   box-shadow:
     0 1px 1px 0 #a1e9cb,
     0 6px 20px 0 #a1e9cb;
+  width: 300px;
 }
 
 .see-project button:active {
@@ -464,6 +475,7 @@ a {
 
   .nav__header .menu-link li {
     list-style: none;
+    display: inline-block;
   }
 
   .nav__header .menu-link li a {
@@ -493,7 +505,7 @@ a {
       104% 19%,
       18% 75%,
       37% 7%,
-      57% 0;
+      50% 0;
     background-repeat: no-repeat;
     height: 1121.3px;
   }
@@ -515,7 +527,14 @@ a {
   }
 
   #scroller-icon {
-    margin-top: 80px;
+    margin-top: 30px;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    from { top: 0; }
+    to { top: 50px; }
   }
 
   .recent__work__container {
