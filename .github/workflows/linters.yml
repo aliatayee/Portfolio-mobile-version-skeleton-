@@ -4,12 +4,6 @@ on: pull_request
 
 env:
   FORCE_COLOR: 1
-{
-  "rules": {
-    "length-zero-no-unit": true
-  }
-}
-
 jobs:
   lighthouse:
     name: Lighthouse
