@@ -479,18 +479,6 @@ a {
     display: inline-block;
   }
 
-  .nav__header .menu-link li::after {
-    width: 0px;
-    height: 3px;
-    display: block;
-    background: #36b37f;
-    transition: 300ms;
-  }
-
-  .nav__header .menu-link li:hover::after {
-    width: 100%;
-  }
-
   .nav__header .menu-link li a {
     text-decoration: none;
     font-family: Inter, sans-serif;
