@@ -17,12 +17,24 @@ body {
 
 #mobile-menu-container ul li {
   list-style-type: none;
+  margin-top: 10px;
+  color: #3a4a42;
+  text-align: left;
+  display: flex;
+}
+
+#mobile-menu-container ul li a {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-Weight: 600;
+  font-Size: 32px;
 }
 
 .close-icon {
   display: flex;
   justify-content: flex-end;
-  margin-right: 7%;
+  margin-right: 5%;
+  margin-top: 2%;
 }
 
 .logo img {
