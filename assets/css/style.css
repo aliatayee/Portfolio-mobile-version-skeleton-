@@ -2,6 +2,29 @@ body {
   margin: 0;
 }
 
+#mobile-menu-container {
+  display: none;
+  width: 100vw;
+  height: 90%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  z-index: 999;
+  margin-top: -60px;
+  padding-top: 25px;
+}
+
+#mobile-menu-container ul li {
+  list-style-type: none;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7%;
+}
+
 .logo img {
   width: 30px;
 }
@@ -451,6 +474,9 @@ a {
 }
 
 @media screen and (min-width: 992px) {
+  #mobile-menu-container {
+    display: none;
+  }
   .nav__header {
     margin-top: 0;
     margin-right: 10.69%;
