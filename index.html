@@ -17,7 +17,10 @@
         <header>
             <nav class="nav__header">
                 <a class="logo" href="#"><img src="assets/images/logo-dark.png" alt="logo" /></a>
-                <nav class="hamburger"><img src="assets/images/Union.svg" alt="menu"></nav>
+                <nav class="hamburger" onclick="menuFunction()"><img src="assets/images/Union.svg" alt="menu"></nav>
+
+                <!-- Desktop Menu     -->
+
                 <ul class="menu-link">
                     <li><a href="">Projects</a></li>
                     <li><a href="">About</a></li>
@@ -25,6 +28,16 @@
                 </ul>
             </nav>
 
+            <!-- Mobile Menu -->
+
+            <div id="mobile-menu-container">
+                <span class="close-icon" onclick="menuFunction()"><img src="assets/images/close-icon.svg" alt=""></span>
+                <ul id="mylink">
+                    <li onclick="menuFunction()"><a href="javascript:void(0);">Projects</a></li>
+                    <li onclick="menuFunction()"><a href="javascript:void(0);">About</a></li>
+                    <li onclick="menuFunction()"><a href="javascript:void(0);"> Contact </a></li>
+                </ul>
+            </div>
             <section id="banner">
                 <h1 class="slogan">Hey there. I’m Ali <br></h1>
                 <p>I’m a software developer</p>
@@ -236,6 +249,7 @@
             </div>
         </footer>
     </div>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
