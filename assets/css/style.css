@@ -6,28 +6,13 @@ body {
   display: none;
   width: 100vw;
   height: 90%;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   position: absolute;
   z-index: 999;
   margin-top: -60px;
   padding-top: 25px;
-}
-
-#mobile-menu-container ul li {
-  list-style-type: none;
-  margin-top: 10px;
-  color: #3a4a42;
-  text-align: left;
-  display: flex;
-}
-
-#mobile-menu-container ul li a {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-Weight: 600;
-  font-Size: 32px;
 }
 
 .close-icon {
@@ -112,6 +97,15 @@ h4.slogan {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: large;
+  color: #42526e;
 }
 
 p {
@@ -310,6 +304,22 @@ h3 {
   list-style-type: none;
 }
 
+#mobile-menu-container ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  color: #3a4a42;
+  text-align: left;
+  display: flex;
+}
+
+#mobile-menu-container ul li a {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+
 .see-project {
   display: flex;
   justify-content: space-evenly;
@@ -476,19 +486,11 @@ footer {
   font-family: Inter, sans-serif;
 }
 
-a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-family: Inter, sans-serif;
-  font-size: large;
-  color: #42526e;
-}
-
 @media screen and (min-width: 992px) {
   #mobile-menu-container {
     display: none;
   }
+  
   .nav__header {
     margin-top: 0;
     margin-right: 10.69%;
