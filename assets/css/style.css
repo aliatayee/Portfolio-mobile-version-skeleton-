@@ -304,6 +304,11 @@ h3 {
   list-style-type: none;
 }
 
+.button-white-bg li {
+  background-color: white;
+  color: #36b37f;
+}
+
 #mobile-menu-container ul li {
   list-style-type: none;
   margin-top: 10px;
@@ -318,7 +323,6 @@ h3 {
   font-weight: 600;
   font-size: 32px;
 }
-
 
 .see-project {
   display: flex;
@@ -403,11 +407,6 @@ h3 {
   height: 350px;
 }
 
-.button-white-bg li {
-  background-color: white;
-  color: #36b37f;
-}
-
 .box {
   display: flex;
   flex-direction: column;
@@ -490,7 +489,7 @@ footer {
   #mobile-menu-container {
     display: none;
   }
-  
+
   .nav__header {
     margin-top: 0;
     margin-right: 10.69%;
