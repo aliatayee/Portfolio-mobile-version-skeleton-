@@ -17,8 +17,7 @@
         <header>
             <nav class="nav__header">
                 <a class="logo" href="#"><img src="assets/images/logo-dark.png" alt="logo" /></a>
-                <nav class="hamburger" onclick="menuFunction()"><img src="assets/images/Union.svg" alt="menu"></nav>
-
+               
                 <!-- Desktop Menu     -->
 
                 <ul class="menu-link">
@@ -26,6 +25,11 @@
                     <li><a href="">About</a></li>
                     <li><a href=""> Contact </a></li>
                 </ul>
+
+                <!-- hamburger Icon -->
+
+                <nav class="hamburger" onclick="menuFunction()"><img src="assets/images/Union.svg" alt="menu"></nav>
+
             </nav>
 
             <!-- Mobile Menu -->
@@ -33,9 +37,9 @@
             <div id="mobile-menu-container">
                 <span class="close-icon" onclick="menuFunction()"><img src="assets/images/close-icon.svg" alt=""></span>
                 <ul id="mylink">
-                    <li onclick="menuFunction()"><a href="javascript:void(0);">Projects</a></li>
-                    <li onclick="menuFunction()"><a href="javascript:void(0);">About</a></li>
-                    <li onclick="menuFunction()"><a href="javascript:void(0);"> Contact </a></li>
+                    <li ><a href="javascript:void(0);" onclick="menuOptions('#my-recent-work')">Projects</a></li>
+                    <li ><a href="javascript:void(0);" onclick="menuOptions('#about')">About</a></li>
+                    <li ><a href="javascript:void(0);" onclick="menuOptions('#contact')"> Contact </a></li>
                 </ul>
             </div>
             <section id="banner">
@@ -154,7 +158,7 @@
             </div>
 
         </section>
-        <section class="title about-me">
+        <section id="about" class="title about-me">
             <h2 class="title">About Me</h2>
             <p>
                 I can help you build a product , feature or website Look through some of my work and experience! If you
@@ -207,7 +211,7 @@
             </div>
         </section>
         <footer>
-            <div class="contact__container">
+            <div class="contact__container" id="contact">
                 <h2 class="title">I'm always interested in hearing about new projects, so if you'd like to chat please
                     get
                     in touch.</h2>

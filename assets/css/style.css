@@ -487,7 +487,7 @@ footer {
 
 @media screen and (min-width: 992px) {
   #mobile-menu-container {
-    display: none;
+    display: none !important;
   }
 
   .nav__header {
