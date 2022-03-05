@@ -17,8 +17,7 @@ function menuOptions(param) {
 }
 /* eslint-enable */
 
-
-// client side validation and local storage stuff
+// client side validation and local storage 
 document.getElementById('form').addEventListener('submit', (e) => {
   const emailValue = document.getElementById('email').value;
   const emailError = document.getElementById('error-msg');
