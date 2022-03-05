@@ -319,7 +319,6 @@ h3 {
   flex-wrap: nowrap;
   align-content: space-around;
   align-items: flex-end;
-
 }
 
 .phone-btn-modal {
@@ -366,9 +365,9 @@ h3 {
   margin-right: 8px;
 }
 
-.buttons >li,
-.buttons2 >li,
-.buttons3 >li {
+.buttons > li,
+.buttons2 > li,
+.buttons3 > li {
   background-color: #ebf0ee;
   border: none;
   padding: 5px;
@@ -574,7 +573,6 @@ footer {
 
   .modal-desktop-btn li {
     height: 10px;
-
   }
 }
 
