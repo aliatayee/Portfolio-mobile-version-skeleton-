@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body id="body">
     <div class="home-page">
         <header>
             <nav class="nav__header">
                 <a class="logo" href="#"><img src="assets/images/logo-dark.png" alt="logo" /></a>
-               
+
                 <!-- Desktop Menu     -->
 
                 <ul class="menu-link">
@@ -37,9 +38,9 @@
             <div id="mobile-menu-container">
                 <span class="close-icon" onclick="menuFunction()"><img src="assets/images/close-icon.svg" alt=""></span>
                 <ul id="mylink">
-                    <li ><a href="javascript:void(0);" onclick="menuOptions('#my-recent-work')">Projects</a></li>
-                    <li ><a href="javascript:void(0);" onclick="menuOptions('#about')">About</a></li>
-                    <li ><a href="javascript:void(0);" onclick="menuOptions('#contact')"> Contact </a></li>
+                    <li><a href="javascript:void(0);" onclick="menuOptions('#my-recent-work')">Projects</a></li>
+                    <li><a href="javascript:void(0);" onclick="menuOptions('#about')">About</a></li>
+                    <li><a href="javascript:void(0);" onclick="menuOptions('#contact')"> Contact </a></li>
                 </ul>
             </div>
             <section id="banner">
@@ -75,87 +76,46 @@
         <section id="my-recent-work">
             <h2 class="title 2">My Recent<br>Work<br></h2>
             <div class="indicator"></div>
-            <div class="recent__work__container">
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
+            <div class="recent__work__container" id="project_container">
+
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div><span id="close" class="close" onclick="closeModal()">&times;</span></div>
+
+                    <div class="img-box modal-img"><img src="assets/images/projects/proj1.svg" alt="project 1"></div>
+                    <div class="row modal-header" id="modalHead">
+                        <h3 class="title-project motal-title">Multi-Post Stories Gain+Glory</h3>
+                        <div class="desk-btns">
+                            <button class="modal-btn">See Live</button>
+                            <button class="modal-btn">See Source</button>
+                        </div>
+                    </div> <br>
+                    <div>
+                        <ul class="buttons modal-desktop-btn">
+                            <li>ruby</li>
+                            <li>Css</li>
+                            <li>javascript</li>
+                            <li>html</li>
+                        </ul>
                     </div>
+                    <p class="modal-p">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem
+                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it 1960s with the relea</p>
+                        <div class="phone-btn-modal">
+                            <button class="modal-btn" >See Live</button>
+                            <button class="modal-btn">See Source</button>
+                        </div>
                 </div>
 
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
-                    </div>
-                </div>
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
-                    </div>
-                </div>
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
-                    </div>
-                </div>
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
-                    </div>
-                </div>
-                <div class="img-patholder">
-                    <div class="img-box"><img src="assets/images/placeholder-image.png" alt="project 1"></div>
-                    <h3 class="title-project">Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul class="buttons">
-                        <li>ruby on rails</li>
-                        <li>Css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="see-project">
-                        <button>See project</button>
-                    </div>
-                </div>
             </div>
+
 
         </section>
         <section id="about" class="title about-me">

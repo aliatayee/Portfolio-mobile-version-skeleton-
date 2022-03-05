@@ -17,6 +17,87 @@ function menuOptions(param) {
 }
 /* eslint-enable */
 
+// description project modal array
+
+const projects = [
+  {
+    id: 1,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+  {
+    id: 2,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+  {
+    id: 3,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+  {
+    id: 4,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+  {
+    id: 4,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+  {
+    id: 4,
+    title: 'Multi-Post Stories Gain+Glory',
+    img: 'assets/images/projects/prj1.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveLink: 'https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/',
+    github: 'https://github.com/aliatayee/Portfolio-mobile-version-skeleton-',
+    techstack: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+  },
+
+];
+
+const gridContainer = document.getElementById('project_container');
+document.getElementById('body').onload = () => {
+  projects.forEach((project, index) => {
+    gridContainer.innerHTML += `
+      <div class="img-patholder">
+                    <div class="img-box"><img src="${project.img}" alt="project 1"></div>
+                    <h3 class="title-project">${project.title}</h3>
+                    <ul class="buttons">
+                        <li>ruby on rails</li>
+                        <li>Css</li>
+                        <li>javascript</li>
+                        <li>html</li>
+                    </ul>
+                    <div class="see-project">
+                        <button id="modal-btn" onclick="openModal(projects[${index}])">See project</button>
+                    </div>
+                </div>
+      `;
+  });
+};
+
 // client side validation and local storage
 document.getElementById('form').addEventListener('submit', (e) => {
   const emailValue = document.getElementById('email').value;
@@ -31,7 +112,27 @@ document.getElementById('form').addEventListener('submit', (e) => {
     emailError.textContent = 'email should be typed in lowercase';
   }
 });
+/* eslint-disable */
+function openModal() {
+  const gridContainer = document.getElementById('myModal');
+  gridContainer.style.display = 'block';
+}
 
+// When the user clicks on <span> (x), close the modal
+
+function closeModal() {
+  const modal = document.getElementById('myModal');
+  modal.style.display = 'none';
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  const modal = document.getElementById('myModal');
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
+/* eslint-enable */
 // formData object
 let formData = {
   full__name: '',
