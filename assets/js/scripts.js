@@ -21,8 +21,8 @@ function menuOptions(param) {
 document.getElementById('form').addEventListener('submit', (e) => {
   const emailValue = document.getElementById('email').value;
   const emailError = document.getElementById('error-msg');
-  const regex = /^[a-z]/g;
-  if (regex.test(emailValue)) {
+  const validate = emailValue.toLowerCase();
+  if (emailValue == validate) {
     emailError.textContent = '';
     // emptying the local storage
     localStorage.removeItem('formData');
