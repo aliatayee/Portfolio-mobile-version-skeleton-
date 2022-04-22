@@ -1,8 +1,7 @@
 
-# setup and mobile version skeleton
-> Portfolio: setup and mobile version skeleton 
-## Demo Link
-https://aliatayee.github.io/Portfolio-mobile-version-skeleton-/
+# Setup and Mobile Version Skeleton
+> Portfolio: Setup and mobile version skeleton 
+
 ## Built With
 HTML5
 ## Major languages
