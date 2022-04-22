@@ -1,6 +1,6 @@
 
-# setup and mobile version skeleton
-> Portfolio: setup and mobile version skeleton 
+# Setup and Mobile Version Skeleton
+> Portfolio: Setup and mobile version skeleton 
 
 ## Built With
 HTML5
